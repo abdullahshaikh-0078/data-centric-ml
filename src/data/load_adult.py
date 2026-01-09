@@ -20,7 +20,7 @@ def load_adult_dataset(path: str) -> pd.DataFrame:
 
 
 if __name__ == "__main__":
-    data_path = "data/raw/adult.csv"
+    data_path = "data/raw/adult_clean.csv"
     df = load_adult_dataset(data_path)
 
     print("Dataset shape:", df.shape)
