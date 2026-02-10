@@ -1,5 +1,12 @@
-# Python cache files
-data/
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
+
+# Environment & editor
+.env
+.vscode/
+.ipynb_checkpoints/
+
+# Large raw datasets (keep structure, not files)
+data/raw/*.csv
